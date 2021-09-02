@@ -23,7 +23,7 @@ EOF
     
 #create file sasl_passwd
 cat > "/etc/postfix/sasl_passwd" <<EOF
-[smtp.gmail.com]:587 infogroup.sup@gmail.com:Infogroup@68
+[smtp.gmail.com]:587 servicesbackup8@gmail.com:password
 EOF
 
 # Phân quyền cho file vừa tạo
