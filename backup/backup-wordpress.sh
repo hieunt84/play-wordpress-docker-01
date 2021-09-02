@@ -22,14 +22,14 @@ cd "$BACKUP_DIR"
 tar -czf backup-$(date +%F\-%H\-%M\-%S).tar.gz "$APP_DIR" >/dev/null 2>&1
 
 # Keep the last 3 backups
-find "$BACKUP_DIR" -type f -name "*.gz" -cmin +35 -delete
+find "$BACKUP_DIR" -type f -name "*.gz" -cmin +180 -delete
 
 # cron and email
 if [ ! -f /etc/cron.d/wordpress.cron ]; then
     cat > "/etc/cron.d/wordpress.cron" <<EOF
     SHELL=/bin/sh
     MAILTO="hieunt9@gmail.com"
-    */10 * * * * root $SCRIPT_BK
+    */59 * * * * root $SCRIPT_BK
 EOF
     echo "Restarting crond service"
     systemctl restart crond.service
