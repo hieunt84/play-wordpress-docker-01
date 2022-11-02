@@ -8,6 +8,8 @@
 - Bước 3: Install Docker compose
 - Bước 4: clone source from github
 - Bước 5: Run source code
+  sudo docker compose up -d
+  sudo docker compose ps
 
 ## Ghi chú
 /var/spool/mail/root
