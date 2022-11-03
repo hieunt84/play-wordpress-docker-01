@@ -33,7 +33,7 @@ https://phoenixnap.com/kb/install-docker-compose-centos-7
 - Bước 7: Restore
 ```
 - stop service
-- tar -xzf backupxxx
+- tar -xzf backup-xxx
 - cd ~/home
 - cp -R wordpress /home
 - start service
