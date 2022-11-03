@@ -11,6 +11,9 @@ https://docs.docker.com/engine/install/centos/
 ```
 
 - Bước 3: Install Docker compose
+```
+https://phoenixnap.com/kb/install-docker-compose-centos-7
+```
 
 - Bước 4: Clone source from github
 
