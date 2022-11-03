@@ -17,7 +17,7 @@ https://phoenixnap.com/kb/install-docker-compose-centos-7
 
 - Bước 4: Clone source from github
 
-- Bước 5: Run source code
+- Bước 5: Run source code docker-compose.yaml
 ```
   sudo docker compose up -d
   sudo docker compose ps
@@ -37,6 +37,11 @@ https://phoenixnap.com/kb/install-docker-compose-centos-7
 - cd ~/home
 - cp -R wordpress /home
 - start service
+```
+
+## Tham khảo
+```
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04
 ```
 
 ## Ghi chú
