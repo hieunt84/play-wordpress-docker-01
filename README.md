@@ -46,6 +46,5 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-c
 
 ## Ghi chú
 ```
-/var/spool/mail/root
-check 3:45
+- Chạy trên laptop T480s bị lỗi , lúc đầu chạy ngon, khởi động lại chạy không được.
 ```
